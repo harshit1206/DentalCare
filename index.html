@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Dental Studio | Dental Clinic in Indiranagar, Bengaluru</title>
+  <meta name="description" content="Aura Dental Studio is Indiranagar's trusted dental clinic. Compassionate, pain-free dental care, painless root canals, clear aligners, dental implants & routine checkups on 100ft Road.">
+  <meta name="keywords" content="dentist Indiranagar, dental clinic Bengaluru, painless root canal Bangalore, clear aligners Indiranagar, dental implants Bangalore">
+  <link rel="canonical" href="https://www.auradentalstudio.in/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.auradentalstudio.in/">
+  <meta property="og:title" content="Aura Dental Studio | Dental Clinic in Indiranagar, Bengaluru">
+  <meta property="og:description" content="Trusted dental clinic in Indiranagar. Painless root canals, clear aligners, dental implants & routine checkups.">
+  <meta property="og:image" content="https://www.auradentalstudio.in/images/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.auradentalstudio.in/">
+  <meta property="twitter:title" content="Aura Dental Studio | Dental Clinic in Indiranagar, Bengaluru">
+  <meta property="twitter:description" content="Trusted dental clinic in Indiranagar. Painless root canals, clear aligners, dental implants & routine checkups.">
+  <meta property="twitter:image" content="https://www.auradentalstudio.in/images/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230F766E'><path d='M12 2C8.5 2 6 4.5 6 7c0 3 1.5 5.5 2.5 8 .8 2 1.5 4.5 3.5 5 2-.5 2.7-3 3.5-5 1-2.5 2.5-5 2.5-8 0-2.5-2.5-5-6-5z'/></svg>">
+
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"></noscript>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Aura Dental Studio",
+    "image": "https://www.auradentalstudio.in/images/clinic-front.jpg",
+    "@id": "https://www.auradentalstudio.in/",
+    "url": "https://www.auradentalstudio.in/",
+    "telephone": "+919876543210",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Plot No. 742, 100 Feet Road, Near HAL 2nd Stage",
+      "addressLocality": "Indiranagar, Bengaluru",
+      "postalCode": "560038",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 12.9715987,
+      "longitude": 77.6411545
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "10:00",
+        "closes": "20:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "10:00",
+        "closes": "14:00"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Analytics Placeholders -->
+  <script>
+    // <!-- VERIFY WITH CLIENT --> Add real GA4/Pixel IDs
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    // gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css?v=3">
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==========================================================================
+       1. NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <!-- Announcement Bar -->
+    <div class="announcement-bar" id="announcementBar">
+      <div class="container">
+        <div class="announcement-content">
+          <div class="header-badges">
+            <span class="rating-chip" aria-label="4.9 stars out of 5 on Google with 450 plus reviews">
+              <span class="star">★</span> 4.9 on Google · 450+ reviews
+            </span>
+            <span class="status-chip" id="liveStatusChip">
+              <span class="status-dot"></span> <span id="statusText">Checking status...</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="nav-wrapper">
+        <!-- Brand Logo -->
+        <a href="#hero" class="brand-logo" aria-label="Aura Dental Studio Home">
+          <svg class="brand-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2C8.5 2 6 4.5 6 7c0 3 1.5 5.5 2.5 8 .8 2 1.5 4.5 3.5 5 2-.5 2.7-3 3.5-5 1-2.5 2.5-5 2.5-8 0-2.5-2.5-5-6-5z" />
+          </svg>
+          <div class="brand-text">
+            <span class="brand-name">Aura</span>
+            <span class="brand-sub">DENTAL STUDIO</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav aria-label="Primary" class="desktop-nav">
+          <ul class="nav-links">
+            <li class="has-dropdown">
+              <button aria-expanded="false" aria-controls="treatmentsMenu" class="nav-link" data-i18n="nav_treatments">Treatments</button>
+              <div class="dropdown-menu" id="treatmentsMenu">
+                <ul>
+                  <li><a href="treatments/rct.html">Root Canal (RCT)</a></li>
+                  <li><a href="#services">Clear Aligners</a></li>
+                  <li><a href="#services">Dental Implants</a></li>
+                  <li><a href="#services">Teeth Whitening</a></li>
+                  <li><a href="#services">Zirconia Crowns</a></li>
+                  <li><a href="#services">Kids Dentistry</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#doctor" class="nav-link" data-i18n="nav_doctor">Doctor</a></li>
+            <li><a href="#why-us" class="nav-link" data-i18n="nav_whyus">Why Us</a></li>
+            <li><a href="#reviews" class="nav-link" data-i18n="nav_reviews">Reviews</a></li>
+            <li><a href="#services" class="nav-link">Pricing</a></li>
+            <li><a href="#faq" class="nav-link">FAQ</a></li>
+            <li><a href="#booking" class="nav-link">Location</a></li>
+          </ul>
+        </nav>
+
+        <!-- Desktop Actions -->
+        <div class="nav-actions">
+          <a href="tel:+919876543210" class="btn btn-ghost btn-sm hide-on-mobile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Call Now</span>
+          </a>
+          <button class="btn btn-primary btn-sm hide-on-mobile" data-open-modal data-i18n="btn_book_free">
+            <span>Book Free Consultation</span>
+          </button>
+        </div>
+
+        <!-- Mobile Actions -->
+        <div class="mobile-actions">
+          <a href="tel:+919876543210" class="mobile-call-btn" aria-label="Call Aura Dental Studio">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+          <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobileMenu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
+  <aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-header">
+      <div class="brand-text">
+        <span class="brand-name">Aura Dental</span>
+      </div>
+      <button class="mobile-menu-close" id="mobileMenuCloseBtn" aria-label="Close Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    
+    <div class="mobile-menu-content" id="mobileMenuContent">
+      <ul class="mobile-nav-list">
+        <li>
+          <button class="mobile-nav-link has-submenu" aria-expanded="false" aria-controls="mobileTreatments">
+            <span data-i18n="nav_treatments">Treatments</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ul class="mobile-submenu" id="mobileTreatments">
+            <li><a href="treatments/rct.html">Root Canal (RCT)</a></li>
+            <li><a href="#services">Clear Aligners</a></li>
+            <li><a href="#services">Dental Implants</a></li>
+            <li><a href="#services">Teeth Whitening</a></li>
+            <li><a href="#services">Zirconia Crowns</a></li>
+            <li><a href="#services">Kids Dentistry</a></li>
+          </ul>
+        </li>
+        <li><a href="#doctor" class="mobile-nav-link" data-i18n="nav_doctor">Meet the Doctor</a></li>
+        <li><a href="#why-us" class="mobile-nav-link" data-i18n="nav_whyus">Why Choose Us</a></li>
+        <li><a href="#reviews" class="mobile-nav-link" data-i18n="nav_reviews">Patient Reviews</a></li>
+        <li><a href="#services" class="mobile-nav-link">Pricing</a></li>
+        <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+        <li><a href="#booking" class="mobile-nav-link">Location</a></li>
+      </ul>
+    </div>
+    
+    <div class="mobile-menu-footer">
+      <a href="https://wa.me/919876543210?text=Hi%20Aura%20Dental%20Studio%2C%20I%27d%20like%20to%20book%20an%20appointment." class="btn btn-whatsapp btn-block">WhatsApp Us</a>
+      <button class="btn btn-primary btn-block" data-open-modal>Book Free Consultation</button>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- ==========================================================================
+         2. HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-layout">
+          <!-- Text Content -->
+          <div class="hero-text-content">
+            <span class="hero-eyebrow">Dental clinic in Indiranagar, Bengaluru</span>
+            <h1 class="hero-title">Gentle dental care for you and your family</h1>
+            <p class="hero-text">Experience world-class dentistry. We combine advanced technology with a compassionate approach to give you a healthy, confident smile.</p>
+            
+            <div class="hero-cta-group">
+              <button class="btn btn-primary btn-lg" data-open-modal>
+                <span>Book an Appointment</span>
+              </button>
+              <a href="https://wa.me/919876543210?text=Hi%20Aura%20Dental%20Studio" class="btn btn-outline btn-lg" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                <span>WhatsApp Us</span>
+              </a>
+            </div>
+            
+            <a href="tel:+919876543210" class="hero-emergency-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Tooth pain? Call us now
+            </a>
+
+            <div class="hero-trust-row">
+              <div class="trust-item">
+                <span class="star">★</span> 4.9 Google rating
+              </div>
+              <div class="trust-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg> 
+                0% EMI on select treatments
+              </div>
+              <div class="trust-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Painless, comfort-first care
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Content -->
+          <div class="hero-image-content">
+            <!-- VERIFY WITH CLIENT: use real clinic photo -->
+            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80" alt="Dentist and patient in bright clinic" class="hero-photo" fetchpriority="high" width="800" height="800">
+            <div class="hero-floating-card">
+              <div class="doctor-name">Dr. Rajesh Sharma</div>
+              <div class="doctor-qual">MDS, Prosthodontist</div>
+              <div class="doctor-reg">Reg. no. on request</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SERVICES / TREATMENTS
+         ========================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="eyebrow">OUR SERVICES</span>
+          <h2 class="title">Comprehensive, Gentle Dental Care</h2>
+          <p class="subtitle">Every treatment is planned conservatively and carried out using state-of-the-art painless technology for your complete comfort.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 2.5C8.8 2.5 6.5 4.8 6.5 7.5c0 3.2 1.6 5.8 2.8 8.4.8 1.8 1.4 3.6 2.7 4.1 1.3-.5 1.9-2.3 2.7-4.1 1.2-2.6 2.8-5.2 2.8-8.4 0-2.7-2.3-5-5.5-5z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Single-Sitting Root Canal</h3>
+            <p class="service-desc">Save infected teeth seamlessly. With computerized painless anesthesia and rotary instruments, most root canals are completed comfortably in just 45 minutes.</p>
+            <!-- VERIFY WITH CLIENT: Starting price -->
+            <div class="service-cost">Starting from ₹4,500 <span class="cost-note">(Depends on tooth location)</span></div>
+            <button class="service-link" data-open-modal data-treatment="Root Canal (RCT)">Book Consultation &rarr;</button>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="6" width="20" height="12" rx="4"></rect>
+                <line x1="6" y1="12" x2="18" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Clear Aligners & Braces</h3>
+            <p class="service-desc">Straighten crooked teeth or close gaps discreetly without metal wires. Custom invisible aligners made with precision 3D digital scans for predictable, aesthetic results.</p>
+            <!-- VERIFY WITH CLIENT: Starting price -->
+            <div class="service-cost">Starting from ₹45,000</div>
+            <button class="service-link" data-open-modal data-treatment="Invisalign / Braces">Book Consultation &rarr;</button>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Dental Implants</h3>
+            <p class="service-desc">Permanent, natural-feeling replacement for missing teeth. Titanium implants topped with high-translucency zirconia crowns for lifelike chewing strength and aesthetics.</p>
+            <!-- VERIFY WITH CLIENT: Starting price -->
+            <div class="service-cost">Starting from ₹25,000 <span class="cost-note">(Per Implant)</span></div>
+            <button class="service-link" data-open-modal data-treatment="Dental Implants">Book Consultation &rarr;</button>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Teeth Whitening & Cleaning</h3>
+            <p class="service-desc">Gentle ultrasonic scaling to remove plaque and tartar, followed by safe laser whitening that lifts stubborn stains by several shades in a single relaxing session.</p>
+            <!-- VERIFY WITH CLIENT: Starting price -->
+            <div class="service-cost">Starting from ₹1,500 <span class="cost-note">(Cleaning & Polishing)</span></div>
+            <button class="service-link" data-open-modal data-treatment="Teeth Whitening">Book Consultation &rarr;</button>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Zirconia Crowns & Veneers</h3>
+            <p class="service-desc">Restore chipped, cracked, or discolored teeth with custom German CAD/CAM zirconia crowns and ceramic veneers, designed to blend naturally with your smile.</p>
+            <!-- VERIFY WITH CLIENT: Starting price -->
+            <div class="service-cost">Starting from ₹6,000 <span class="cost-note">(With warranty)</span></div>
+            <button class="service-link" data-open-modal data-treatment="Crowns & Veneers">Book Consultation &rarr;</button>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Family & Pediatric Care</h3>
+            <p class="service-desc">Comprehensive preventive dental checkups, cavity fillings, and gentle pediatric treatments in a warm, welcoming environment that puts both kids and adults at ease.</p>
+            <div class="service-cost">Starting from ₹500 <span class="cost-note">(Consultation)</span></div>
+            <button class="service-link" data-open-modal data-treatment="Kids Care">Book Consultation &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. MEET THE DOCTOR
+         ========================================================================== -->
+    <section class="section section-light" id="doctor">
+      <div class="container">
+        <div class="doctor-layout">
+          <!-- Doctor Image -->
+          <div class="doctor-image-wrapper">
+            <!-- VERIFY WITH CLIENT: Real doctor photo -->
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80" alt="Dr. Rajesh Sharma MDS - Chief Prosthodontist & Implantologist" class="doctor-photo" loading="lazy" width="800" height="800">
+          </div>
+
+          <!-- Doctor Bio -->
+          <div class="doctor-details">
+            <span class="eyebrow">MEET YOUR DOCTOR</span>
+            <h2 class="doctor-name">Dr. Rajesh Sharma, MDS</h2>
+            <div class="doctor-role">Specialist Prosthodontist & Implantologist • 15+ Years Clinical Practice</div>
+
+            <p class="doctor-bio">
+              "We believe visiting the dentist shouldn't be stressful or confusing. At Aura Dental Studio, we focus on listening first, explaining every option clearly, and delivering conservative, pain-free treatments with the highest clinical ethics."
+            </p>
+
+            <ul class="doctor-credentials-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>BDS, MDS (Prosthodontics)</strong> — Specialist Post-Graduate Degree</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>15+ Years Experience</strong> — Former Consultant at Fortis & Manipal Hospital</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Fellow ICOI (Germany)</strong> — Certified in Computer-Guided Implant Surgery</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Karnataka Dental Council</strong> — Registered Dental Surgeon (Reg #14288-A)</span>
+              </li>
+            </ul>
+
+            <div class="doctor-action">
+              <button class="btn btn-primary" data-open-modal>
+                <span>Schedule Consultation with Dr. Rajesh</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. WHY PATIENTS CHOOSE US
+         ========================================================================== -->
+    <section class="section" id="why-us">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="eyebrow">OUR COMMITMENT</span>
+          <h2 class="title">Why Patients Choose Aura Dental Studio</h2>
+          <p class="subtitle">We built our practice on four principles to make every dental visit comfortable, transparent, and completely worry-free.</p>
+        </div>
+
+        <div class="benefits-grid">
+          <!-- Benefit 1 -->
+          <div class="benefit-box">
+            <div class="benefit-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="benefit-title">Gentle, comfort-focused dentistry</h3>
+            <p class="benefit-text">We use computerized local anesthesia and gentle rotary technology, ensuring treatments like fillings and root canals are virtually pain-free.</p>
+          </div>
+
+          <!-- Benefit 2 -->
+          <div class="benefit-box">
+            <div class="benefit-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+            </div>
+            <h3 class="benefit-title">Appointments scheduled to minimise waiting</h3>
+            <p class="benefit-text">We value your busy schedule. Appointments are spaced appropriately and scheduled consultations start promptly without prolonged waiting.</p>
+          </div>
+
+          <!-- Benefit 3 -->
+          <div class="benefit-box">
+            <div class="benefit-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3 class="benefit-title">High-standard sterilization</h3>
+            <p class="benefit-text">Strict European Class-B vacuum autoclave protocols. Sealed, sterile instrument pouches are opened right in front of you inside the operatory.</p>
+          </div>
+
+          <!-- Benefit 4 -->
+          <div class="benefit-box">
+            <div class="benefit-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            </div>
+            <h3 class="benefit-title">Honest, Clear Pricing</h3>
+            <p class="benefit-text">Transparent written treatment estimates upfront with zero hidden charges.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. PATIENT REVIEWS
+         ========================================================================== -->
+    <section class="section section-light" id="reviews">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="eyebrow">TESTIMONIALS</span>
+          <h2 class="title">What Our Patients Say</h2>
+          <p class="subtitle">Genuine experiences shared by patients who trust us with their smiles.</p>
+          <a href="https://g.page/r/YOUR_GOOGLE_LINK/review" target="_blank" rel="noopener noreferrer" class="link-teal" style="display:inline-block; margin-top:10px; font-weight:600;">View on Google &rarr;</a>
+        </div>
+
+        <div class="reviews-grid">
+          <!-- VERIFY WITH CLIENT: Real reviews needed -->
+          <!-- Review 1 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "I had put off my root canal for months out of fear. Dr. Rajesh Sharma completely changed my perspective! The single-sitting RCT was 100% painless. The clinic is spotless and everyone was so polite."
+            </p>
+            <div class="review-author">
+              <div class="author-name">Ananya Swaminathan</div>
+              <div class="author-sub">Indiranagar • Root Canal Treatment</div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Got my clear aligners here. The 3D scan preview gave me confidence, and the checkout process at the reception was seamless. Six months in, my smile has transformed. Truly a premier clinic in Bengaluru."
+            </p>
+            <div class="review-author">
+              <div class="author-name">Rohan Deshmukh</div>
+              <div class="author-sub">Koramangala • Clear Aligners</div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Brought my 8-year-old daughter for routine dental cleaning and cavity prevention. The doctors were incredibly gentle, reassuring, and patient. Excellent experience and hassle-free valet parking!"
+            </p>
+            <div class="review-author">
+              <div class="author-name">Priyadarshini Rao</div>
+              <div class="author-sub">HAL 2nd Stage • Family Dental Care</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         7. EASY APPOINTMENT BOOKING & CLINIC LOCATION
+         ========================================================================== -->
+    <section class="section" id="booking">
+      <div class="container">
+        <div class="booking-layout">
+          <!-- Left: Direct Booking Form -->
+          <div class="booking-form-box">
+            <span class="eyebrow">BOOK APPOINTMENT</span>
+            <h2 class="booking-title">Schedule Your Visit</h2>
+            <p class="booking-subtitle">Fill out this quick form and our clinic desk will call you back within working hours.</p>
+
+            <form id="onPageBookingForm" class="appointment-form" novalidate>
+              <!-- Honeypot -->
+              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+              <div class="form-group">
+                <label for="bookFullName">Full Name *</label>
+                <input type="text" id="bookFullName" class="form-input" placeholder="e.g. Varun Hegde" required>
+              </div>
+
+              <div class="form-group">
+                <label for="bookPhone">WhatsApp / Mobile Number *</label>
+                <input type="tel" inputmode="tel" id="bookPhone" class="form-input" placeholder="98765 43210" required>
+                <div class="error-msg" id="phoneError"></div>
+              </div>
+
+              <div class="form-group">
+                <label>Treatment Needed</label>
+                <div class="treatment-chips" id="bookTreatmentChips">
+                  <label class="chip"><input type="radio" name="treatment" value="Checkup" checked><span>Checkup</span></label>
+                  <label class="chip"><input type="radio" name="treatment" value="Root Canal"><span>Root Canal</span></label>
+                  <label class="chip"><input type="radio" name="treatment" value="Aligners/Braces"><span>Aligners</span></label>
+                  <label class="chip"><input type="radio" name="treatment" value="Implants"><span>Implants</span></label>
+                  <label class="chip"><input type="radio" name="treatment" value="Other"><span>Other</span></label>
+                </div>
+              </div>
+
+                <div class="form-group">
+                  <label for="bookTime">Preferred Time (Optional)</label>
+                  <select id="bookTime" class="form-select">
+                    <option value="">Any Time</option>
+                    <option value="Morning">Morning (10:00 AM – 1:00 PM)</option>
+                    <option value="Afternoon">Afternoon (1:00 PM – 5:00 PM)</option>
+                    <option value="Evening">Evening (5:00 PM – 8:30 PM)</option>
+                  </select>
+                </div>
+
+              <div class="form-group checkbox-group">
+                <label style="display:flex; align-items:flex-start; gap:8px; font-weight:normal; font-size:0.8rem; cursor:pointer;">
+                  <input type="checkbox" id="bookConsent" required style="margin-top:2px;">
+                  <span>I consent to Aura Dental Studio contacting me via call/WhatsApp. (DPDP Act 2023)</span>
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Confirm Appointment Request</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+
+              <div class="form-success-state" id="formSuccessMessage" style="display:none; color: var(--color-primary); font-weight: 600; text-align: center; margin-top: 10px;">
+                Thank you! We will contact you soon.
+              </div>
+            </form>
+          </div>
+
+          <!-- Right: Clinic Information -->
+          <div class="clinic-info-box">
+            <h3 class="info-title">Studio Location & Hours</h3>
+            <p class="info-desc">Conveniently situated on 100 Feet Road, Indiranagar, with direct metro connectivity and free valet parking.</p>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <strong>Clinic Address</strong>
+                  <p>Plot No. 742, 100 Feet Road, Near HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560038</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <strong>Clinic Timings</strong>
+                  <p>Monday – Saturday: 10:00 AM – 8:30 PM<br>Sunday: 10:00 AM – 2:00 PM (By Prior Appointment)</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <strong>Direct Clinic Contact</strong>
+                  <p>Front Desk: <a href="tel:+919876543210" class="link-teal">98765 43210</a></p>
+                  <p>Emergency Line: 98765 43211</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="clinic-actions">
+              <a href="https://wa.me/919876543210?text=Hi%20Aura%20Dental%20Studio%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.79 14.13c-.24.68-1.39 1.3-1.92 1.38-.49.08-1.12.11-3.23-.76-2.54-1.05-4.17-3.64-4.3-3.81-.13-.17-1.04-1.38-1.04-2.64 0-1.25.66-1.87.89-2.12.24-.25.52-.31.69-.31.17 0 .35 0 .5.01.16.01.38-.06.59.45.22.52.74 1.8.8 1.93.07.13.11.28.02.45-.09.18-.13.29-.27.45-.13.16-.28.36-.4.48-.13.13-.27.28-.12.54.15.26.68 1.12 1.46 1.81 1 .89 1.85 1.17 2.11 1.3.26.13.41.11.56-.06.15-.18.66-.77.83-1.03.18-.26.35-.22.59-.13.24.09 1.54.73 1.8.86.26.13.44.2.5.31.07.11.07.65-.17 1.33z"/>
+                </svg>
+                <span>Direct WhatsApp Consultation</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. FREQUENTLY ASKED QUESTIONS (FAQ)
+         ========================================================================== -->
+    <section class="section section-light" id="faq">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="eyebrow">FAQS</span>
+          <h2 class="title">Frequently Asked Questions</h2>
+          <p class="subtitle">Quick answers to common questions about appointments and care.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button class="faq-trigger" aria-expanded="true">
+              <span>Is Root Canal Treatment (RCT) really pain-free?</span>
+              <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. We use computerized local anesthesia which ensures the targeted tooth is fully numb before we begin. Most of our patients report feeling nothing more than gentle vibration during single-sitting root canals.</p>
+            </div>
+          </div>
+
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>How do I reach the clinic and is parking available?</span>
+              <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-content">
+              <p>Aura Dental Studio is located on 100 Feet Road, Indiranagar, near HAL 2nd Stage. We provide free dedicated valet parking for all our patients.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can I walk in without an appointment?</span>
+              <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-content">
+              <p>While walk-ins and emergencies are always attended to, we strongly recommend booking in advance to guarantee zero waiting time with our chief specialists.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Clinic Gallery Placeholder -->
+      <div class="gallery-section" style="margin-top: 40px;">
+        <h3 style="text-align:center; margin-bottom:20px;">Clinic Tour</h3>
+        <!-- VERIFY WITH CLIENT: Real photos -->
+        <div style="display:flex; gap:10px; overflow-x:auto; padding-bottom:10px;">
+          <div style="width:280px; height:180px; background:#e2e8f0; flex-shrink:0; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#64748b;">Reception Area</div>
+          <div style="width:280px; height:180px; background:#e2e8f0; flex-shrink:0; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#64748b;">Operatory 1</div>
+          <div style="width:280px; height:180px; background:#e2e8f0; flex-shrink:0; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#64748b;">Waiting Lounge</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       9. POPUP BOOKING MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="leadModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="modalTitle">Book an Appointment</h3>
+          <p class="modal-subtitle">Direct consultation with Dr. Rajesh Sharma, MDS</p>
+        </div>
+        <button class="modal-close" id="closeModalBtn" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <form id="modalBookingForm" class="modal-form" novalidate>
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="form-group">
+          <label for="modalFullName">Full Name *</label>
+          <input type="text" id="modalFullName" class="form-input" placeholder="e.g. Deepika Padukone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalPhone">WhatsApp / Mobile *</label>
+          <input type="tel" inputmode="tel" id="modalPhone" class="form-input" placeholder="98765 43210" required>
+        </div>
+
+        <div class="form-group">
+          <label>Treatment</label>
+          <div class="treatment-chips" id="modalTreatmentChips">
+             <label class="chip"><input type="radio" name="modal_treatment" value="Checkup" checked><span>Checkup</span></label>
+             <label class="chip"><input type="radio" name="modal_treatment" value="Root Canal"><span>Root Canal</span></label>
+             <label class="chip"><input type="radio" name="modal_treatment" value="Aligners"><span>Aligners</span></label>
+             <label class="chip"><input type="radio" name="modal_treatment" value="Implants"><span>Implants</span></label>
+          </div>
+        </div>
+
+        <div class="form-group checkbox-group">
+          <label style="display:flex; align-items:flex-start; gap:8px; font-weight:normal; font-size:0.8rem; cursor:pointer;">
+            <input type="checkbox" id="modalConsent" required style="margin-top:2px;">
+            <span>I consent to Aura Dental Studio contacting me via call/WhatsApp.</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block" id="modalSubmitBtn" style="margin-top: 8px;">
+          <span>Confirm Appointment Request</span>
+        </button>
+
+        <p class="modal-guarantee">We will call or WhatsApp within working hours.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       10. MOBILE BOTTOM STICKY BAR (<768px)
+       ========================================================================== -->
+  <aside class="mobile-sticky-bar" aria-label="Mobile Quick Actions">
+    <a href="https://wa.me/919876543210?text=Hi" class="mobile-bar-btn btn-whatsapp" style="border:none; color:white;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.79 14.13c-.24.68-1.39 1.3-1.92 1.38-.49.08-1.12.11-3.23-.76-2.54-1.05-4.17-3.64-4.3-3.81-.13-.17-1.04-1.38-1.04-2.64 0-1.25.66-1.87.89-2.12.24-.25.52-.31.69-.31.17 0 .35 0 .5.01.16.01.38-.06.59.45.22.52.74 1.8.8 1.93.07.13.11.28.02.45-.09.18-.13.29-.27.45-.13.16-.28.36-.4.48-.13.13-.27.28-.12.54.15.26.68 1.12 1.46 1.81 1 .89 1.85 1.17 2.11 1.3.26.13.41.11.56-.06.15-.18.66-.77.83-1.03.18-.26.35-.22.59-.13.24.09 1.54.73 1.8.86.26.13.44.2.5.31.07.11.07.65-.17 1.33z"/>
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+    <button class="mobile-bar-btn primary" data-open-modal style="background-color: var(--color-primary); color:white; border:none;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span>Book Visit</span>
+    </button>
+  </aside>
+
+  <!-- ==========================================================================
+       11. CLEAN, PROFESSIONAL FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-layout">
+        <div class="footer-brand">
+          <div class="brand-text">
+            <span class="brand-name" style="color: #FFFFFF; font-size: 1.15rem;">Aura Dental Studio</span>
+            <span class="brand-location" style="color: #94A3B8;">100ft Road, Indiranagar, Bengaluru</span>
+          </div>
+          <p class="footer-tagline">
+            Specialized, pain-free dental care with transparent pricing and the highest standards of clinical sterilization.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#doctor">Chief Specialist</a></li>
+              <li><a href="#why-us">Why Choose Us</a></li>
+              <li><a href="#reviews">Patient Reviews</a></li>
+              <li><a href="#booking">Book Appointment</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <p>Plot No. 742, 100ft Road, Near HAL 2nd Stage, Indiranagar, Bengaluru - 560038</p>
+            <p style="margin-top: 8px;"><strong>Phone:</strong> <a href="tel:+919876543210" style="color: #5EEAD4;">98765 43210</a></p>
+            <p><strong>Hours:</strong> Mon–Sat: 10 AM–8:30 PM, Sun: 10 AM–2 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025–2026 Aura Dental Studio. Registered under Karnataka Private Medical Establishments (KPME) Act.</p>
+        <p style="margin-top: 5px; font-size: 0.75rem; color: #94A3B8;">
+          <a href="#" style="color: #94A3B8; text-decoration: underline;">Privacy Policy</a> | 
+          <a href="#" style="color: #94A3B8; text-decoration: underline;">Terms of Service</a>
+        </p>
+        <p style="margin-top: 10px; font-size: 0.7rem; color: #64748B;">Disclaimer: Results vary by patient. Information is not a substitute for a clinical consultation. All before/after photos are shown with patient consent.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="js/app.js?v=3"></script>
+</body>
+</html>

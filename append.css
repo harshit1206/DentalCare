@@ -1,0 +1,274 @@
+
+/* ==========================================================================
+   NEW STYLES (Header, Forms, Chips, Smart Sticky)
+   ========================================================================== */
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-primary);
+  color: white;
+  padding: 8px;
+  z-index: 10000;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+  background-color: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.8rem;
+  padding: 6px 0;
+  transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+.announcement-bar.collapsed {
+  max-height: 0;
+  padding: 0;
+  opacity: 0;
+  border-bottom: none;
+}
+.announcement-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-badges {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.rating-chip, .status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--bg-subtle);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  color: var(--text-body);
+}
+.rating-chip .star { color: #D97706; }
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-whatsapp);
+}
+.status-chip.closed .status-dot {
+  background-color: #EF4444;
+}
+
+/* Smart Sticky Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.site-header.scrolled-down {
+  transform: translateY(-100%);
+}
+.site-header.scrolled-up {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Nav Link active state (Scroll Spy) */
+.nav-link[aria-current="true"] {
+  color: var(--color-primary);
+  font-weight: 700;
+  position: relative;
+}
+.nav-link[aria-current="true"]::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  border-radius: 2px;
+}
+
+/* Mega Menu / Dropdown */
+.has-dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 200px;
+  box-shadow: var(--shadow-card);
+  border-radius: var(--radius-md);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+  border: 1px solid var(--border-color);
+  z-index: 100;
+}
+.has-dropdown:hover .dropdown-menu,
+.has-dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.dropdown-menu ul {
+  list-style: none;
+  padding: 10px 0;
+}
+.dropdown-menu a {
+  display: block;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  color: var(--text-body);
+  transition: background 0.2s, color 0.2s;
+}
+.dropdown-menu a:hover, .dropdown-menu a:focus {
+  background: var(--bg-subtle);
+  color: var(--color-primary);
+}
+
+/* Mobile Dropdown */
+.mobile-submenu {
+  display: none;
+  list-style: none;
+  padding-left: 16px;
+  margin-top: 8px;
+}
+.mobile-submenu.active {
+  display: block;
+}
+.mobile-submenu a {
+  display: block;
+  padding: 6px 0;
+  font-size: 0.9rem;
+  color: var(--text-body);
+}
+
+/* Hide header CTA on mobile */
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .mobile-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+
+/* Form Error */
+.error-msg {
+  color: #EF4444;
+  font-size: 0.75rem;
+  margin-top: 4px;
+  display: none;
+}
+.form-input.error {
+  border-color: #EF4444;
+}
+
+/* Treatment Chips (Radio Buttons) */
+.treatment-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.treatment-chips .chip {
+  cursor: pointer;
+}
+.treatment-chips input[type="radio"] {
+  display: none;
+}
+.treatment-chips span {
+  display: inline-block;
+  padding: 6px 12px;
+  background: var(--bg-page);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  color: var(--text-body);
+  transition: all 0.2s;
+}
+.treatment-chips input[type="radio"]:checked + span {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+/* EMI Slider Styles */
+.range-slider {
+  width: 100%;
+  margin-top: 8px;
+}
+.emi-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: clamp(20px, 4vw, 32px);
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--border-color);
+  max-width: 800px;
+  margin: 0 auto;
+}
+.emi-result {
+  background: var(--bg-teal-tint);
+  padding: 16px;
+  border-radius: var(--radius-md);
+  margin-top: 24px;
+  border: 1px solid #99F6E4;
+}
+.emi-monthly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--text-main);
+}
+.emi-monthly strong {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+}
+
+/* Emergency Strip */
+.emergency-strip {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #EF4444;
+  color: white;
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+/* Mobile safe area padding for bottom bar */
+body {
+  padding-bottom: 70px;
+}
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+}
