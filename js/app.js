@@ -26,11 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* ==========================================================================
-   1. i18n Dictionary
-   ========================================================================== */
 /* ==========================================================================
-   2. Live Status Chip (IST)
-   ========================================================================== */
+  2. Live Status Chip (IST)
+  ========================================================================== */
 function initStatusChip() {
   const chip = document.getElementById('liveStatusChip');
   const text = document.getElementById('statusText');

@@ -1307,7 +1307,7 @@ p {
   }
 
   .doctor-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 24px;
   }
 
@@ -1316,7 +1316,7 @@ p {
   }
 
   .booking-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 24px;
   }
 
@@ -1533,6 +1533,11 @@ p {
 @media (max-width: 480px) {
   .hero-section {
     padding: 24px 0 32px 0;
+  }
+
+  .doctor-action .btn {
+    width: 100%;
+    white-space: normal;
   }
   
   .hero-photo {
